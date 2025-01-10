@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,19 +8,29 @@
 
 /* common css */
 
-body{
+body {
   background-color: #F5F5F5;
   font-family: "Fira Sans", serif;
 }
 
-header{
+header {
   width: 100dvw;
+}
+
+.lrg-btn{
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 8px;
+  background-color: #006A50;
+  width: max-content;
 }
 
 
 /* Nav bar CSS */
 
-.menu-bar{
+.menu-bar {
   display: flex;
   width: 100dvw;
   height: 100px;
@@ -28,13 +39,13 @@ header{
   padding: 0 160px;
 }
 
-.logo{
+.logo {
   font-size: 32px;
   font-weight: 700;
   color: #0E0E0E;
 }
 
-#sign-in{
+#sign-in {
   font-weight: 600;
   text-decoration: none;
   color: #006A50;
@@ -43,10 +54,53 @@ header{
   padding: 15px 30px;
 }
 
-#sign-in:hover{
+#sign-in:hover {
   background-color: #006A50;
   border: none;
   color: #FFFFFF;
 }
 
+/* banner section css */
 
+.hero-section {
+  display: flex;
+  width: 100dvw;
+  height: 660px;
+  justify-content: center;
+  padding: 20px 160px 80px;
+}
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1600px;
+  height: 560px;
+  padding: 80px 60px;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  width: 622px;
+  height: 326px;
+}
+
+.banner-content h5 {
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(14, 14, 14, 0.5);
+}
+
+.banner-content h1 {
+  font-weight: 700;
+  font-size: 56px;
+  color: #0E0E0E;
+  margin-block: 16px 32px;
+}
+
+.banner-btn{
+  padding: 17px 34px;
+}
