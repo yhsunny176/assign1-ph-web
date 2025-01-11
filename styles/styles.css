@@ -526,6 +526,7 @@ header {
   border: none;
   background-color: #006A50;
   padding: 17px 34px;
+  cursor: pointer;
 }
 
 #subs-btn:hover {
