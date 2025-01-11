@@ -17,7 +17,7 @@ header {
   width: 100dvw;
 }
 
-.lrg-btn{
+.lrg-btn {
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
@@ -27,50 +27,79 @@ header {
   width: max-content;
 }
 
-.sections{
-  width: 100%;
+.sml-btn {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 8px;
+  width: max-content;
+  justify-self: flex-end;
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 11px 20px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 1600px;
   height: 100%;
   margin: 80px 160px 0;
 }
 
-.sec-title{
+.section-heading {
+  width: 100%;
+  height: auto;
+}
+
+.sec-title {
   font-size: 40px;
   font-weight: 700;
   color: #0E0E0E;
 }
 
-.card-container{
+.sec-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 24px;
+  margin-block-start: 24px;
+}
+
+.card-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
+  align-items: stretch;
   gap: 24px;
 }
 
-.cards{
+.cards {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 100%;
+  gap: 24px;
   padding: 24px;
+  border-radius: 16px;
 }
 
-.cards>img{
-  margin-bottom: 24px;
+.cards>img {
+  width: max-content;
 }
 
-.card-txt{
+.card-txt {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.card-txt>h3{
+.card-txt>h3 {
   font-size: 20px;
   font-weight: 700;
   color: rgba(14, 14, 14, 0.8);
 }
 
-.card-txt>p{
+.card-txt>p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -151,22 +180,123 @@ header {
   margin-block: 16px 32px;
 }
 
-.banner-btn{
+.banner-btn {
   padding: 17px 34px;
+}
+
+.banner-btn:hover {
+  background-color: #024635;
 }
 
 /* pillars of bangladesh section */
 
-.pillars-section{
+.pillars-section {
   display: flex;
   flex-direction: column;
-  width: 1600px;
   height: 100%;
   gap: 32px;
 }
 
-.pillar-card{
+.pillar-card {
   background-color: #FFFFFF;
   border: 1px solid rgba(14, 14, 14, 0.15);
-  border-radius: 18px;
+}
+
+.pillar-card:hover {
+  background-color: #F7F7F7;
+  cursor: pointer;
+}
+
+
+
+/* vision section css */
+.vis-card-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+
+.vis-card-2 {
+  background-color: #C6E4D6;
+}
+
+.vis-card-3 {
+  background-color: #F7EBCF;
+}
+
+.vis-card-1:hover {
+  cursor: pointer;
+  border: 1px solid #5490F5;
+}
+
+.vis-card-2:hover {
+  cursor: pointer;
+  border: 1px solid #09A15C;
+}
+
+.vis-card-3:hover {
+  cursor: pointer;
+  border: 1px solid #FFC239;
+}
+
+
+.learn-btn-1 {
+  background-color: #5490F5;
+}
+
+.learn-btn-2 {
+  background-color: #09A15C;
+}
+
+.learn-btn-3 {
+  background-color: #FFC239;
+}
+
+.learn-btn-1:hover {
+  background-color: #4887f5;
+}
+
+.learn-btn-2:hover {
+  background-color: #0a9154;
+}
+
+.learn-btn-3:hover {
+  background-color: #ebb12a;
+}
+
+.quote-container {
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 48px 24px;
+  background-image: url('../assets/quote-bg.png');
+  background-repeat: no-repeat;
+  background-position: left 24px top 25px;
+}
+
+.quote-txts {
+  width: 100%;
+  height: max-content;
+}
+
+.quote-txts>p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.8);
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.quote-txts>h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 0.8);
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.quote-txts>h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.6);
+  line-height: 24px;
 }
